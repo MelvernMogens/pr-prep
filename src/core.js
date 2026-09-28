@@ -1,12 +1,12 @@
 'use strict';
 /* ================= DATA & INDEX ================= */
 const D = window.__DATA__;
-const WEEKS = D.weeks.filter(w => w.n <= 6);
+const WEEKS = D.weeks.filter(w => w.n <= 8);
 const SLIDES = (D.slides || {});
 const T = {}, F = {}, USES = {}, TOPICS = [];
 D.weeks.forEach(w => w.topics.forEach(t => {
   T[t.id] = t; t.wk = w;
-  if (w.n <= 6) TOPICS.push(t);
+  if (w.n <= 8) TOPICS.push(t);
   t.formulas.forEach(f => { F[f.key] = f; f.topic = t; });
   t.examples.forEach((e, i) => {
     e.id = t.id + ':' + i; e.topic = t; e.idx = i;
@@ -17,7 +17,7 @@ const QZ = D.quiz;
 const QMAP = {};
 QZ.forEach(q => { QMAP[q.id] = q; });
 const TOTAL_EX = TOPICS.reduce((a, t) => a + t.examples.length, 0);
-const ES_KEYS = ['teori'].filter(k => T['es-' + k]);
+const ES_KEYS = ['uts', 'teori'].filter(k => T['es-' + k]);
 const LETTERS = 'ABCDE';
 const SENT = (D.extra && D.extra.sentences) || [];
 const ES_TYPE = {}; const ES_TOPIC = {};

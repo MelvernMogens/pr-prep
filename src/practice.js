@@ -194,7 +194,7 @@ function Essay(type, idx) {
 const SIM_MIX = { 1: 4, 2: 4, 3: 4, 4: 5, 5: 5, 6: 3 };
 const SIM_N = 25;  // bocoran UTS: 25 PG
 const SIM_PG_PTS = 60 / 25;  // 25 PG = 60 poin
-const SIM_ES = ['teori','teori'];
+const SIM_ES = ['uts','uts','uts','uts'];
 const SIM_ES_PTS = 40 / 4;  // 4 essay = 40 poin
 const SIM_MIN = 120;
 function newSim() {
@@ -206,12 +206,12 @@ function newSim() {
     fromD.concat(rest).forEach(q => pg.push(q.id));
   });
   const essays = [];
-  const pool = T['es-teori'] ? shuffle(T['es-teori'].examples) : [];
-  const teori = pool.slice(0, 3);
+  const utsp = T['es-uts'] ? shuffle(T['es-uts'].examples) : [];
+  const teori = utsp.length >= 4 ? utsp.slice(0, 4) : utsp.concat(T['es-teori'] ? shuffle(T['es-teori'].examples).slice(0, 4 - utsp.length) : []);
   teori.forEach(ex => essays.push({ type: 'teori', ex }));
 
   
-  if (essays.length < 3 && pool.length) essays.push({ type: 'teori', ex: pool[essays.length % pool.length] });
+  if (essays.length < 4 && teori.length) essays.push({ type: 'uts', ex: teori[essays.length] });
   return { v: 2, pg: shuffle(pg), ord: pg.map(id => shuffle(QMAP[id].opts.map((_, i) => i))), esPts: SIM_ES_PTS, pgPts: SIM_PG_PTS, ans: {}, flag: {}, essays: essays.map(E => ({ type: E.type, ex: { title: E.ex.title, src: E.ex.src, soal: E.ex.soal, steps: E.ex.steps, answer: E.ex.answer, uses: E.ex.uses } })), start: Date.now(), dur: SIM_MIN * 60 * 1000, status: 'run', cur: 0, rub: {} };
 }
 function Sim() {
@@ -222,7 +222,7 @@ function Sim() {
   const hist = Store.get('simHist', []);
   const pgMax = SIM_N * SIM_PG_PTS;
   mount(`<div class="page narrow">
-    <header class="phead"><div class="kicker">Simulasi ujian</div><h1>Latihan ujian ${SIM_MIN} menit</h1><p class="lead">${SIM_N} PG (${pgMax} poin) + 3 essay (40 poin), semuanya essay konsep/kasus. Dikerjakan di kertas, lalu nilai sendiri pakai rubrik langkah.</p></header>
+    <header class="phead"><div class="kicker">Simulasi ujian</div><h1>Latihan ujian ${SIM_MIN} menit</h1><p class="lead">${SIM_N} PG (${pgMax} poin) + 4 essay (40 poin) — format bocoran UTS. Dikerjakan di kertas, lalu nilai sendiri pakai rubrik langkah.</p></header>
     <section class="card"><div class="fmt-list plain">
       <div><span class="num">${SIM_N}</span><span><b>Pilihan ganda — ${SIM_PG_PTS} poin/soal</b><small>${Object.keys(SIM_MIX).map(w => 'W' + w + ' ×' + SIM_MIX[w]).join(' · ')} — acak dari bank ${QZ.length} soal</small></span></div>
       <div><span class="num">3</span><span><b>Essay — 40 poin</b><small>3 essay konsep/kasus dari bank, diacak tiap attempt</small></span></div>
