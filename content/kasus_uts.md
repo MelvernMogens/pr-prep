@@ -20,7 +20,7 @@
 PT Jaring Care mengoperasikan call center 24 jam untuk rumah sakit dan asuransi di Jakarta. Tahun lalu mereka merekrut 50 customer service baru — 30 di antaranya resign sebelum 6 bulan. Lowongan lama hanya menjanjikan "gaji tetap, karier cepat, kerja di gedung mewah". Tidak ada satu pun kalimat soal shift malam mingguan, pelanggan yang marah-marah, atau target waktu respon 90 detik per panggilan.
 (a) Jelaskan definisi realistic job preview dan uraikan mengapa PT Jaring Care membutuhkannya — pakai rantai logika dan biaya turnover dari slide.
 (b) Rancang langkah-langkah pembuatan RJP untuk posisi customer service ini: analisis awal, konten yang harus muncul, pilihan format beserta materials dan source-nya, serta timing penyampaiannya.
-@slide w2-10, w2-11, w2-12, w2-13, w2-14, w2-16, w2-17
+@slide w2-10, w2-12, w2-16, w2-17
 @step Definisikan RJP dengan tepat :: Definisi slide: RJP memberikan gambaran AKURAT tentang pekerjaan dan organisasi kepada pelamar. Kata kuncinya accurate — bukan sekadar "jujur", tapi akurat dua arah: sisi berat dan sisi baiknya sama-sama ditunjukkan. Poin penuh kalau definisi memuat "accurate view of the jobs and the organization".
 @step Buktikan kenapa perlu lewat rantai logika :: Slide: lower expectations → increase met expectations → increase satisfaction → increase performance → reduce turnover. Kasus ini kebalikannya: lowongan cuma menjanjikan hal positif (pola traditional recruitment) → ekspektasi pelamar menggelembung → realita shift malam dan pelanggan marah tidak pernah disebut → unmet expectations → 30 dari 50 resign (voluntary turnover).
 | Mata rantai | Yang terjadi di Jaring Care |
@@ -43,7 +43,7 @@ PT Jaring Care mengoperasikan call center 24 jam untuk rumah sakit dan asuransi 
 Di Sulawesi Tengah, diare adalah salah satu penyebab utama kematian balita, dan penyebabnya buang air besar sembarangan (open defecation). Pemda pernah bikin kampanye poster yang menakut-nakuti: foto balita sakit parah dengan tulisan "buang air besar sembarangan membunuh". Warga lihat, takut, tapi perilaku tidak berubah.
 (a) Jelaskan definisi fear appeal dan mekanisme kerjanya — sebutkan rumus threat dan rumus efficacy beserta elemennya.
 (b) Diagnosis kenapa kampanye lama gagal, lalu rancang kampanye baru yang efektif, dan jelaskan risiko fear appeal.
-@slide w4-26, w4-30, w4-31, w4-32, w4-34, w4-35
+@slide w4-26, w4-32
 @step Definisikan fear appeal :: Definisi slide: fear appeal adalah metode memengaruhi opini publik dengan cara membangkitkan ancaman (incite threat) dan memastikan orang takut pada ancaman itu, LALU menyediakan solusi atas masalah yang ditampilkan. Dua kata kerja kuncinya: menakutkan dan memberi jalan keluar — keduanya wajib ada.
 @step Uraikan mekanisme threat :: Untuk efektif, threat butuh 2 elemen: severity (seberapa serius ancamannya) dan susceptibility (seberapa mungkin ancaman itu menimpa saya). Rumus slide: Threat = Severity + Susceptibility. Analogi iklan: pesan "diare mematikan" saja baru severity; harus ditambah "dan menular di halaman rumahmu sendiri" supaya susceptibility ikut naik.
 @step Uraikan mekanisme solution :: Untuk efisien, solusi butuh 2 elemen: response efficacy (orang yakin solusinya bekerja) dan self efficacy (orang yakin MAMPU menjalankan solusinya). Rumus slide: Efficacy = Response Efficacy + Self Efficacy. Contoh slide tentang air: semua setuju air menghilangkan haus — itu response efficacy tinggi.
@@ -59,7 +59,6 @@ Di Sulawesi Tengah, diare adalah salah satu penyebab utama kematian balita, dan 
 PT Kopi Muria Raya (fiktif), perusahaan kopi dengan 37 gerai di Jawa Tengah, meresmikan pabrik roasting baru di Kudus pada Jumat, 6 November 2026. Datanya: total investasi Rp 6,97 miliar (mesin roastery Rp 1,30 miliar + bangunan Rp 1,05 miliar + sarana Rp 540 juta + perizinan dan lingkungan Rp 230 juta + pelatihan Rp 750 juta + modal kerja Rp 3,10 miliar). Kapasitas 21 ton biji kopi per tahun, 65% (13,65 ton) untuk ekspor. Menyerap 68 karyawan baru. Kemitraan dengan 299 petani lereng Gunung Muria: 134 petani Kudus, 111 petani Pati, 54 petani Jepara. Perusahaan juga meluncurkan beasiswa "Muria Young Roasters" untuk 21 siswa SMK. Yang mewawancarai media: Yanuar Prasetya (CEO).
 (a) Tulis press release lengkap untuk peresmian ini — mulai headline sampai contact person.
 (b) Sebutkan aturan penulisan dari slide yang kamu terapkan di press release itu.
-@slide w6-03, w6-08, w6-09, w6-10, w6-15, w6-29, w6-31
 @step Kumpulkan 5W1H sebelum menulis :: Slide: press release harus menjawab what, who, where, when, why, how. Susun dulu dalam tabel, baru tulis — lead yang bagus adalah 5W1H yang dipadatkan.
 | Unsur | Isi |
 | What | Peresmian pabrik roasting + peluncuran beasiswa |
@@ -98,7 +97,7 @@ Enam bulan setelah peresmian pabrik (kasus lanjutan), nama PT Kopi Muria Raya te
 (b) Dari mana masalah research ini berasal? Pilih dari tiga sumber masalah di slide dan jelaskan.
 (c) Tetapkan objectives dari empat tipe di slide, bedakan strategic vs evaluative research untuk kasus ini.
 (d) Pilih metode research dari slide beserta alasannya, dan rancang sampling-nya: bandingkan proportionate vs disproportionate stratified untuk 400 responden dari 20.000 pelanggan terdaftar (Semarang 8.000, Kudus 4.000, Pati 3.000, Jepara 2.000, Solo 3.000).
-@slide w5-03, w5-08, w5-14, w5-15, w5-22, w5-24, w5-26, w5-28, w5-29
+@slide w5-15, w5-22, w5-26
 @step Definisikan research dan posisinya :: Definisi slide: research adalah pengumpulan dan interpretasi informasi yang sistematis untuk menambah pemahaman. Meski PR dikenal sebagai penyampai informasi, research harus menjadi langkah PERTAMA yang wajib (obligatory first step) di proyek mana pun — perusahaan harus punya data yang akurat dan relevan tentang publics, products, dan programs-nya. Untuk kasus ini: tanpa data, program pemulihan jadi tebak-tebakan dan CFO benar menolaknya.
 @step Tetapkan sumber masalahnya :: Slide menyebut 3 sumber masalah: new phenomenon (fenomena baru di masyarakat dengan reaksi publik baru), research gap (teori lama belum diterapkan pada objek baru), dan population yang belum diteliti (underexamined population). Kasus ini = new phenomenon: viralnya video penolakan difabel dan gelombang boikot adalah reaksi publik cara baru yang belum dipahami perusahaan.
 @step Tetapkan objectives dan jenis research :: Empat tipe objectives di slide: measuring public sentiment, predicting public actions, identifying factors yang menyebabkan aksi publik, finding common themes among public opinions. Untuk kasus ini relevan: mengukur sentimen publik pasca-viral, mengidentifikasi faktor pendorong boikot, dan menemukan tema umum di opini warga. Research untuk MENYUSUN program (belum ada program) = strategic research — dipakai menentukan objectives, strategi pesan, dan benchmark. Evaluative (summative) dipakai NANTI, mengukur apakah program pemulihan berhasil.
